@@ -40,6 +40,13 @@ Fill in these details when starting a project and keep them current. Inspect exi
 - Preserve negative results, failed runs, and reasons for exclusion. Do not select only favorable seeds, folds, or metrics.
 - Give each run a unique ID under the documented output location. Save code revision and local changes, resolved configuration, environment, data/split references, seeds, commands, metrics, logs, and artifact paths without overwriting prior results. Plain files are sufficient; use an existing tracker if configured.
 
+## Figures
+
+- Use Arial at 10 pt for all figure text, including titles, axis labels, ticks, legends, annotations, panel labels, and colorbars. Set figure dimensions at the intended final size so resizing does not change the required text size.
+- Keep figure styling consistent through shared plotting defaults: colors, category mappings, line widths, markers, and comparable axis scales. Use color-accessible palettes and label axes with units and transformations.
+- Export a vector PDF with embedded TrueType fonts and editable text for Adobe Illustrator; do not outline text or rasterize the entire figure. Verify Arial is available before rendering; do not silently substitute another font. Check font embedding, text editability, and clipping in the exported file; report any verification that could not be performed.
+- Define error bars, sample counts, and the independent sampling unit in captions. Save plotting code, source-data references, and settings so figures can be regenerated.
+
 ## Verification
 
 - Start with a small representative run before expensive analyses. Confirm scope before unplanned costly jobs or destructive actions.
