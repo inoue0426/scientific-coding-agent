@@ -1,13 +1,19 @@
-# Local secrets and environments
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Secrets
 .env
 .env.*
 !.env.example
-.venv/
-.Renviron
-.Rhistory
-.RData
-.Rproj.user/
 
-# Local operating-system files
+# Local files
 .DS_Store
 Thumbs.db
