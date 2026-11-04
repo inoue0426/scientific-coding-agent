@@ -1,0 +1,13 @@
+# Local secrets and environments
+.env
+.env.*
+!.env.example
+.venv/
+.Renviron
+.Rhistory
+.RData
+.Rproj.user/
+
+# Local operating-system files
+.DS_Store
+Thumbs.db
