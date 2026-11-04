@@ -42,6 +42,7 @@ Fill in these details when starting a project and keep them current. Inspect exi
 
 ## Figures
 
+- For new plotting code, use Matplotlib for figure construction and final export, Seaborn for statistical plots, and Scanpy for single-cell visualizations when relevant. Preserve existing project conventions and add dependencies only as needed. Apply shared style settings across all three so every figure follows the same typography and visual conventions.
 - Use Arial at 10 pt for all figure text, including titles, axis labels, ticks, legends, annotations, panel labels, and colorbars. Set figure dimensions at the intended final size so resizing does not change the required text size.
 - Keep figure styling consistent through shared plotting defaults: colors, category mappings, line widths, markers, and comparable axis scales. Use color-accessible palettes and label axes with units and transformations.
 - Export a vector PDF with embedded TrueType fonts and editable text for Adobe Illustrator; do not outline text or rasterize the entire figure. Verify Arial is available before rendering; do not silently substitute another font. Check font embedding, text editability, and clipping in the exported file; report any verification that could not be performed.
